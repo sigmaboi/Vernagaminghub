@@ -1,0 +1,79 @@
+ body {
+      margin: 0px;
+      padding: 0;
+      background-color: black;
+    }
+
+.navbar {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center;
+  margin-bottom:100px
+
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px; /* Adjust margin to create spacing between buttons */
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.logo {
+  width: 150x;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.company-name {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.big-text {
+      font-size: 70px;
+      text-align: center;
+      color: white;
+      margin-top: 50px;
+    }
+    
+    .subtext {
+      font-size: 55px;
+      text-align: right;
+      color: white;
+      margin-top: 20px;
+    }
+    
+    .subsubtext {
+      font-size: 60px;
+      text-align: center;
+      color: white;
+      margin-top: 10px;
+    }
+    
+    .play-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: transparent;
+      border: 2px solid blue;
+      color: white;
+      text-decoration: none;
+      font-size: 35px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .play-button:hover {
+      background-color: blue;
+      color: white;
+    }
+    
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
